@@ -1,0 +1,6 @@
+<p>email-confirmation works!</p>
+<form (ngSubmit)="onSubmit()">
+    <input type="text" [(ngModel)]="confirmationCode" name="confirmationCode" placeholder="Confirmation Code" required>
+    <button type="submit">Confirm Email</button>
+  </form>
+  
